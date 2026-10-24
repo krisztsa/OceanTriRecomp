@@ -6,6 +6,10 @@
 
 **OceanTriRecomp** es un port nativo para PC (Windows x64) de *Monster Hunter Tri* desarrollado por **[Kris´ZtS](https://github.com/krisztsa)** mediante **recompilación estática AOT (*Ahead-Of-Time*)**.
 
+CUALQUIER DESCARGA FUERA DE ESTE GITHUB NO ES LA VERSIÓN OFICIAL. TAMBIEN PUEDEN UNIRSE AL CANAL DE TELEGRAM:
+@MHNativeProject
+
+
 A diferencia de la emulación tradicional mediante traducción dinámica o intérpretes JIT (*Just-In-Time*), este proyecto traduce de forma estática los bloques ejecutables de la arquitectura original PowerPC (Wii, `main.dol` y módulos relocables) directamente a código fuente C++ optimizado. El resultado es un binario nativo de 64 bits (`OceanTriRecomp.exe`) con ejecución directa en CPU, menor latencia de entrada, soporte para altas tasas de refresco y un pipeline gráfico moderno basado en **[Aurora](https://github.com/encounter/aurora)**, **[SDL3](https://github.com/libsdl-org/SDL)** y **[ANGLE](https://github.com/google/angle)**.
 
 ## Características Principales
